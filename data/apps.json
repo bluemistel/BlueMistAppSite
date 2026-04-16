@@ -1,0 +1,62 @@
+[
+  {
+    "name": "VoiScripter",
+    "description": "複数の合成音声ソフトを扱う人のための台本作成支援アプリです。",
+    "thumbnail": "images/VoiScripter.png",
+    "links": {
+      "github": "https://github.com/bluemistel/VoiScripter",
+      "booth": "https://bluemist.booth.pm/items/7272767",
+      "web": "https://voiscripter.vercel.app"
+    },
+    "tags": ["Web","デスクトップアプリ"],
+    "addedAt": "2026-04-16"
+  },
+  {
+    "name": "icon-cropper",
+    "description": "ブラウザ上で画像の一部分を円形に切り抜けるツールです。",
+    "thumbnail": "images/icon-cropper.jpg",
+    "links": {
+      "github": "https://github.com/bluemistel/icon-cropper",
+      "booth": "",
+      "web": "https://icon-clopper.vercel.app"
+    },
+    "tags": ["Web","アイコン"],
+    "addedAt": "2026-04-16"
+  },
+  {
+    "name": "すぴどぅ",
+    "description": "通知サウンドに推し音声を設定できるミニマルなデスクトップToDoアプリです。見た目は普通です。",
+    "thumbnail": "images/SpDo.png",
+    "links": {
+      "github": "https://github.com/bluemistel/SpDo",
+      "booth": "https://bluemist.booth.pm/items/7760800",
+      "web": ""
+    },
+    "tags": ["デスクトップアプリ"],
+    "addedAt": "2026-04-16"
+  },
+  {
+    "name": "ウゴメキ",
+    "description": "YMM4の動く立ち絵をもっと手軽に！ PSDToolなしでも動く立ち絵を作れます。",
+    "thumbnail": "images/UgokuTachieMakerKIT.png",
+    "links": {
+      "github": "https://github.com/bluemistel/UgokuTachieMakerKIT",
+      "booth": "https://bluemist.booth.pm/items/8064115",
+      "web": ""
+    },
+    "tags": ["YMM4","デスクトップアプリ"],
+    "addedAt": "2026-04-16"
+  },
+  {
+    "name": "かたすみキャプチャプラグイン",
+    "description": "かたすみに置けるサイズのYMM用キャプチャプラグインです。",
+    "thumbnail": "images/KatasumiCapture.png",
+    "links": {
+      "github": "https://github.com/bluemistel/KatasumiCapture",
+      "booth": "https://bluemist.booth.pm/items/8107185",
+      "web": ""
+    },
+    "tags": ["YMM4","YMM4プラグイン","プラグイン"],
+    "addedAt": "2026-04-16"
+  }
+]

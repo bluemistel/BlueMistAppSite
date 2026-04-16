@@ -1,0 +1,15 @@
+{
+  "name": "あおもやの作ったアプリまとめ",
+  "version": "1.0.0",
+  "description": "あおもやが作ったアプリの一覧サイトです。自分が便利になって周りも便利になったらいいなという精神です。",
+  "type": "module",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --minify && node scripts/build-data.js && node -e \"require('fs').copyFileSync('src/favicon.ico','favicon.ico')\"",
+    "add": "node scripts/add-app.js"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "tailwindcss": "^4"
+  }
+}
