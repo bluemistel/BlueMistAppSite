@@ -58,5 +58,17 @@
     },
     "tags": ["YMM4","YMM4プラグイン","プラグイン"],
     "addedAt": "2026-04-16"
-  }
+  },
+  {
+    "name": "A.I.VOICE2の話者割り当て自動化ツール",
+    "description": "A.I.VOICE2がテキスト読み込みに対応してくれないから作ったツール",
+    "thumbnail": "images/A.I.VOICE2の話者割り当て自動化ツール.jpg",
+    "links": {
+      "github": "https://github.com/bluemistel/A.I.VOICE2-SpeakerAssignmentTool",
+      "booth": "",
+      "web": ""
+    },
+    "tags": ["自動化","デスクトップアプリ","A.I.VOICE2"],
+    "addedAt": "2026-04-17"
+  } 
 ]
