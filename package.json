@@ -4,7 +4,7 @@
   "description": "あおもやが作ったアプリの一覧サイトです。自分が便利になって周りも便利になったらいいなという精神です。",
   "type": "module",
   "scripts": {
-    "build": "node scripts/build-data.js && node -e \"require('fs').copyFileSync('src/favicon.ico','favicon.ico')\"",
+    "build": "node scripts/build-data.js",
     "add": "node scripts/add-app.js"
   },
   "devDependencies": {
