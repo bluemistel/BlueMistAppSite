@@ -8,7 +8,10 @@
       "booth": "https://bluemist.booth.pm/items/7272767",
       "web": "https://voiscripter.vercel.app"
     },
-    "tags": ["Web","デスクトップアプリ"],
+    "tags": [
+      "Web",
+      "デスクトップアプリ"
+    ],
     "addedAt": "2026-04-16"
   },
   {
@@ -20,7 +23,10 @@
       "booth": "",
       "web": "https://icon-clopper.vercel.app"
     },
-    "tags": ["Web","アイコン"],
+    "tags": [
+      "Web",
+      "アイコン"
+    ],
     "addedAt": "2026-04-16"
   },
   {
@@ -32,7 +38,9 @@
       "booth": "https://bluemist.booth.pm/items/7760800",
       "web": ""
     },
-    "tags": ["デスクトップアプリ"],
+    "tags": [
+      "デスクトップアプリ"
+    ],
     "addedAt": "2026-04-16"
   },
   {
@@ -44,7 +52,10 @@
       "booth": "https://bluemist.booth.pm/items/8064115",
       "web": ""
     },
-    "tags": ["YMM4","デスクトップアプリ"],
+    "tags": [
+      "YMM4",
+      "デスクトップアプリ"
+    ],
     "addedAt": "2026-04-16"
   },
   {
@@ -56,7 +67,11 @@
       "booth": "https://bluemist.booth.pm/items/8107185",
       "web": ""
     },
-    "tags": ["YMM4","YMM4プラグイン","プラグイン"],
+    "tags": [
+      "YMM4",
+      "YMM4プラグイン",
+      "プラグイン"
+    ],
     "addedAt": "2026-04-16"
   },
   {
@@ -68,7 +83,42 @@
       "booth": "",
       "web": ""
     },
-    "tags": ["自動化","デスクトップアプリ","A.I.VOICE2"],
+    "tags": [
+      "自動化",
+      "デスクトップアプリ",
+      "A.I.VOICE2"
+    ],
     "addedAt": "2026-04-17"
-  } 
+  },
+  {
+    "name": "KoeBako",
+    "description": "exVOICEなどの音声素材をタグをつけて一括管理できるアプリ",
+    "thumbnail": "images/KoeBako.png",
+    "links": {
+      "github": "https://github.com/bluemistel/KoeBako",
+      "booth": "https://bluemist.booth.pm/items/8325029",
+      "web": ""
+    },
+    "tags": [
+      "デスクトップアプリ",
+      "ファイル整理",
+      "サウンド"
+    ],
+    "addedAt": "2026-05-12"
+  },
+  {
+    "name": "DanpentekiBoard",
+    "description": "ふと思いついた会話をつなげる、会話フローエディタ",
+    "thumbnail": "images/Danpenteki.png",
+    "links": {
+      "github": "https://github.com/bluemistel/Danpenteki",
+      "booth": "",
+      "web": "https://danpenteki.vercel.app"
+    },
+    "tags": [
+      "Web",
+      "ホワイトボード"
+    ],
+    "addedAt": "2026-05-12"
+  }
 ]
