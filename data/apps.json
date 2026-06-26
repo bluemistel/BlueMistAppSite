@@ -13,7 +13,7 @@
       "デスクトップアプリ",
       "テキストエディタ"
     ],
-    "addedAt": "2026-04-16"
+    "addedAt": "2025-08-28"
   },
   {
     "name": "icon-cropper",
@@ -28,7 +28,7 @@
       "Web",
       "アイコン"
     ],
-    "addedAt": "2026-04-16"
+    "addedAt": "2025-09-01"
   },
   {
     "name": "すぴどぅ",
@@ -43,7 +43,7 @@
       "デスクトップアプリ",
       "ToDoリスト"
     ],
-    "addedAt": "2026-04-16"
+    "addedAt": "2026-02-22"
   },
   {
     "name": "ウゴメキ",
@@ -59,7 +59,7 @@
       "YMM4ツール",
       "デスクトップアプリ"
     ],
-    "addedAt": "2026-04-16"
+    "addedAt": "2026-03-08"
   },
   {
     "name": "かたすみキャプチャプラグイン",
@@ -75,7 +75,7 @@
       "YMM4プラグイン",
       "プラグイン"
     ],
-    "addedAt": "2026-04-16"
+    "addedAt": "2026-03-20"
   },
   {
     "name": "A.I.VOICE2の話者割り当て自動化ツール",
@@ -107,7 +107,7 @@
       "ファイル整理",
       "サウンド"
     ],
-    "addedAt": "2026-05-12"
+    "addedAt": "2026-05-07"
   },
   {
     "name": "DanpentekiBoard",
@@ -130,7 +130,7 @@
     "thumbnail": "images/YMM4EmotionMekerKIT.png",
     "links": {
       "github": "https://github.com/bluemistel/YMM4EmotionMekerKIT",
-      "booth": "",
+      "booth": "https://bluemist.booth.pm/items/8466630",
       "web": ""
     },
     "tags": [
@@ -163,14 +163,14 @@
     "thumbnail": "images/EM-FilterSets.png",
     "links": {
       "github": "https://github.com/bluemistel/EM-FilterSets",
-      "booth": "",
-      "web": "https://bluemist.booth.pm/items/8527599"
+      "booth": "https://bluemist.booth.pm/items/8527599",
+      "web": ""
     },
     "tags": [
       "YMM4",
       "YMM4プラグイン"
     ],
-    "addedAt": "2026-06-26"
+    "addedAt": "2026-06-20"
   },
   {
     "name": "V-Adapter",
@@ -188,6 +188,6 @@
       "YMM4",
       "YMM4ツール"
     ],
-    "addedAt": "2026-06-26"
+    "addedAt": "2026-06-25"
   }
 ]
