@@ -10,7 +10,8 @@
     },
     "tags": [
       "Web",
-      "デスクトップアプリ"
+      "デスクトップアプリ",
+      "テキストエディタ"
     ],
     "addedAt": "2026-04-16"
   },
@@ -39,7 +40,8 @@
       "web": ""
     },
     "tags": [
-      "デスクトップアプリ"
+      "デスクトップアプリ",
+      "ToDoリスト"
     ],
     "addedAt": "2026-04-16"
   },
@@ -54,6 +56,7 @@
     },
     "tags": [
       "YMM4",
+      "YMM4ツール",
       "デスクトップアプリ"
     ],
     "addedAt": "2026-04-16"
@@ -84,7 +87,7 @@
       "web": ""
     },
     "tags": [
-      "自動化",
+      "自動化/マクロ",
       "デスクトップアプリ",
       "A.I.VOICE2"
     ],
@@ -120,5 +123,71 @@
       "ホワイトボード"
     ],
     "addedAt": "2026-05-12"
+  },
+  {
+    "name": "YMM4EmotionMekerKIT",
+    "description": "YMM4（ゆっくりムービーメーカー4）の台詞を感情分析し、動く立ち絵の表情を自動配置するデスクトップアプリ",
+    "thumbnail": "images/YMM4EmotionMekerKIT.png",
+    "links": {
+      "github": "https://github.com/bluemistel/YMM4EmotionMekerKIT",
+      "booth": "",
+      "web": ""
+    },
+    "tags": [
+      "YMM4",
+      "YMM4ツール",
+      "デスクトップアプリ",
+      "感情分析",
+      "自動化/マクロ"
+    ],
+    "addedAt": "2026-06-11"
+  },
+  {
+    "name": "VoiSpe-Bridge",
+    "description": "合成音声ソフトと連携して読み上げてくれるそこそこの音声認識精度を持つ代読アプリ",
+    "thumbnail": "images/VoiSpe-Bridge.jpg",
+    "links": {
+      "github": "https://github.com/bluemistel/VoiSpe-Bridge",
+      "booth": "",
+      "web": ""
+    },
+    "tags": [
+      "代読アプリ",
+      "デスクトップアプリ"
+    ],
+    "addedAt": "2026-05-02"
+  },
+  {
+    "name": "EM-FilterSets",
+    "description": "エモそうなフィルター(画面エフェクト)のセットをYMM4の映像エフェクトとして追加するプラグインです。",
+    "thumbnail": "images/EM-FilterSets.png",
+    "links": {
+      "github": "https://github.com/bluemistel/EM-FilterSets",
+      "booth": "",
+      "web": "https://bluemist.booth.pm/items/8527599"
+    },
+    "tags": [
+      "YMM4",
+      "YMM4プラグイン"
+    ],
+    "addedAt": "2026-06-26"
+  },
+  {
+    "name": "V-Adapter",
+    "description": "合成音声ソフトの操作を、統一ショートカットから半自動化する Windows デスクトップ向けマクロツール",
+    "thumbnail": "images/V-Adapter.jpg",
+    "links": {
+      "github": "https://github.com/bluemistel/V-Adapter",
+      "booth": "",
+      "web": ""
+    },
+    "tags": [
+      "自動化/マクロ",
+      "AviUtl",
+      "AviUtl2",
+      "YMM4",
+      "YMM4ツール"
+    ],
+    "addedAt": "2026-06-26"
   }
 ]
