@@ -4,6 +4,8 @@
   "description": "あおもやが作ったアプリの一覧サイトです。自分が便利になって周りも便利になったらいいなという精神です。",
   "type": "module",
   "scripts": {
+    "sync": "node scripts/sync-apps.js",
+    "sync:dry": "node scripts/sync-apps.js --dry-run",
     "build": "node scripts/build-data.js",
     "add": "node scripts/add-app.js"
   },

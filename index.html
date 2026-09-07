@@ -247,6 +247,10 @@
       transition: transform 500ms cubic-bezier(.2,.7,.3,1);
     }
     .card:hover .card-media img { transform: scale(1.04); }
+    .card-media.is-auto img {
+      object-fit: contain;
+      background: linear-gradient(135deg, var(--bg-1), var(--bg-2));
+    }
     .card-media-fallback {
       width: 100%; height: 100%; display: grid; place-items: center;
       color: var(--text-dim); font-family: var(--font-mono); font-size: 12px;
@@ -536,7 +540,7 @@
         const tagHTML = (app.tags || []).map(t => `<span class="tag">${escapeHTML(t)}</span>`).join('');
 
         card.innerHTML = `
-          <div class="card-media">${thumb}</div>
+          <div class="card-media${app.thumbnailAuto ? ' is-auto' : ''}">${thumb}</div>
           <div class="card-body">
             <h3 class="card-title">${escapeHTML(app.name)}</h3>
             <p class="card-desc">${escapeHTML(app.description || '')}</p>

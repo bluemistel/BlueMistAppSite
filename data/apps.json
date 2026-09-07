@@ -189,5 +189,63 @@
       "YMM4ツール"
     ],
     "addedAt": "2026-06-25"
+  },
+  {
+    "name": "NicoReco",
+    "description": "ニコニコ動画「音声合成実況・解説・劇場」の観測サイト。評価を重ねて自分の好みの重みを育てる静的サイト。",
+    "thumbnail": "images/auto/NicoReco.png",
+    "links": {
+      "github": "https://github.com/bluemistel/NicoReco",
+      "booth": "",
+      "web": ""
+    },
+    "tags": [],
+    "addedAt": "2026-09-03",
+    "thumbnailAuto": true
+  },
+  {
+    "name": "YMM4-2DCamera",
+    "description": "平面的な2DカメラワークにFOV(パースの強弱)とDOF(Z被写界深度)を与えるYMM4映像エフェクトプラグインです。",
+    "thumbnail": "images/auto/YMM4-2DCamera.png",
+    "links": {
+      "github": "https://github.com/bluemistel/YMM4-2DCamera",
+      "booth": "",
+      "web": ""
+    },
+    "tags": [
+      "YMM4プラグイン"
+    ],
+    "addedAt": "2026-07-07",
+    "thumbnailAuto": true
+  },
+  {
+    "name": "YMM4TemplateEditor",
+    "description": "YMM4 (ゆっくりMovieMaker4) のテンプレートをエクスプローラー風 GUI で整理する Windows ツール",
+    "thumbnail": "images/auto/YMM4TemplateEditor.png",
+    "links": {
+      "github": "https://github.com/bluemistel/YMM4TemplateEditor",
+      "booth": "",
+      "web": ""
+    },
+    "tags": [],
+    "addedAt": "2026-08-05",
+    "thumbnailAuto": true
+  },
+  {
+    "name": "ymm4-openfx-sample",
+    "description": "ゆっくりムービーメーカー4 (YMM4) 4.55のOpenFX対応向けサンプルプラグイン。映像エフェクト/図形・模様/場面切り替えの3コンテキストを1バンドルで実装。",
+    "thumbnail": "images/auto/ymm4-openfx-sample.png",
+    "links": {
+      "github": "https://github.com/bluemistel/ymm4-openfx-sample",
+      "booth": "",
+      "web": ""
+    },
+    "tags": [
+      "プラグイン",
+      "YMM4",
+      "YMM4プラグイン"
+    ],
+    "addedAt": "2026-08-03",
+    "thumbnailAuto": true
   }
 ]

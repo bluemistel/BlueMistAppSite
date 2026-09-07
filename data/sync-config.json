@@ -1,0 +1,41 @@
+{
+  "owner": "bluemistel",
+  "includeForks": false,
+  "includeArchived": true,
+  "ignore": [
+    "BlueMistAppSite",
+    "bluemistel",
+    ".github"
+  ],
+
+  "_comment": "tagMap: GitHub topics を既存タグ名に読み替える。tagIgnore: 捨てる topics。keepUnmappedTags が false のとき、未定義の topics は採用せずレポートにだけ出す。",
+  "keepUnmappedTags": false,
+  "tagMap": {
+    "ymm4": "YMM4",
+    "ymm4-plugin": "YMM4プラグイン",
+    "ymm4-video-effect": "YMM4プラグイン",
+    "ymm4-tool": "YMM4ツール",
+    "aviutl": "AviUtl",
+    "aviutl2": "AviUtl2",
+    "desktop-app": "デスクトップアプリ",
+    "wpf": "デスクトップアプリ",
+    "web": "Web",
+    "automation": "自動化/マクロ",
+    "macro": "自動化/マクロ",
+    "plugin": "プラグイン",
+    "openfx": "プラグイン",
+    "voiceroid": "音声合成",
+    "aivoice": "A.I.VOICE2",
+    "text-to-speech": "音声合成"
+  },
+  "tagIgnore": [
+    "camera",
+    "depth-of-field",
+    "fov",
+    "csharp",
+    "dotnet",
+    "windows",
+    "javascript",
+    "typescript"
+  ]
+}
