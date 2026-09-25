@@ -1,34 +1,45 @@
 #!/usr/bin/env node
+//
+// このサイトは https://aomoya.com/apps/ へ統合した（2026-09-25）。
+// GitHub Pages には移転案内のページだけを出力し、旧URLで来た人を新しいページへ自動で移動させる。
+// アプリ一覧の更新は aomoya.site リポジトリの apps-publish.bat で行う。
+//
 
-import { readFileSync, writeFileSync, mkdirSync, copyFileSync, cpSync } from 'fs';
+import { writeFileSync, mkdirSync, copyFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root      = join(__dirname, '..');
-const APPS_JSON = join(root, 'data', 'apps.json');
-const data      = readFileSync(APPS_JSON, 'utf-8');
-const inlineTag = `<script>const APPS_DATA = ${data.trim()};</script>`;
+const SITE      = join(root, '_site');
+const NEW_URL   = 'https://aomoya.com/apps/';
 
-// --- 1. ローカル開発用: dist/apps.js ---
-mkdirSync(join(root, 'dist'), { recursive: true });
-writeFileSync(join(root, 'dist', 'apps.js'), `const APPS_DATA = ${data.trim()};\n`);
-console.log('Generated dist/apps.js');
+const html = `<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>移転しました | あおもやの作ったアプリまとめ</title>
+  <link rel="canonical" href="${NEW_URL}">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url=${NEW_URL}">
+  <link rel="icon" href="favicon.ico">
+  <script>location.replace(${JSON.stringify(NEW_URL)});</script>
+  <style>
+    body { font-family: system-ui, sans-serif; display: grid; place-items: center; min-height: 100vh; margin: 0; color: #333; }
+    a { color: #00A0B3; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <p>このページは <a href="${NEW_URL}">${NEW_URL}</a> に移転しました。</p>
+</body>
+</html>
+`;
 
-// --- 2. デプロイ用: _site/ にデータをインライン化した index.html を生成 ---
-mkdirSync(join(root, '_site', 'images'), { recursive: true });
+mkdirSync(SITE, { recursive: true });
+writeFileSync(join(SITE, 'index.html'), html);
+// 旧サイト内の他のパスで来た場合も案内する
+writeFileSync(join(SITE, '404.html'), html);
+copyFileSync(join(root, 'src', 'favicon.ico'), join(SITE, 'favicon.ico'));
 
-// index.html の <script src="dist/apps.js"> をインラインに置換
-const html = readFileSync(join(root, 'index.html'), 'utf-8');
-const deployHtml = html.replace('<script src="dist/apps.js"></script>', inlineTag);
-writeFileSync(join(root, '_site', 'index.html'), deployHtml);
-
-// favicon
-copyFileSync(join(root, 'src', 'favicon.ico'), join(root, '_site', 'favicon.ico'));
-// ローカルビルド用のルートfaviconも更新
-copyFileSync(join(root, 'src', 'favicon.ico'), join(root, 'favicon.ico'));
-
-// images
-cpSync(join(root, 'images'), join(root, '_site', 'images'), { recursive: true });
-
-console.log('Generated _site/ for deployment');
+console.log(`Generated _site/ (redirect to ${NEW_URL})`);
